@@ -1,0 +1,55 @@
+.app-container {
+  min-height: 100vh;
+  padding: 1.5rem;
+  background-color: #F5F5DC;
+}
+
+.app-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  /* color: white; */
+}
+
+.text-input-box {
+  width: 95%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #888787;
+  resize: vertical;
+}
+
+.summarize-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #FF7F50;
+  color: white;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s;
+  
+}
+
+.summarize-button:hover {
+  background-color: grey;
+  
+}
+
+.summary-card {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.summary-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333333;
+}
+
+.summary-text {
+  line-height: 1.6;
+}
