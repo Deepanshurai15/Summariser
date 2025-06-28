@@ -12,7 +12,7 @@ function App() {
     setLoading(true);
     setSummary('');
 
-    const res = await fetch('http://localhost:5001/api/summarize', {
+    const res = await fetch('https://summariser-5hjn.onrender.com/api/summarize', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ text: inputText })
@@ -39,6 +39,7 @@ function App() {
       >
         {loading ? 'Summarizing...' : 'Summarize'}</button>
 
+      {/*  summarycard component with the props */}
       {summary && <SummaryCard summary={summary} />}
     </div>
   );
