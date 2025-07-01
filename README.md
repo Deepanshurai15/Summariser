@@ -16,7 +16,7 @@ Goodbrowser is a full-stack web application that summarizes long blocks of text 
 ### Frontend
 - React (with functional components and hooks)
 - CSS for styling
-- Deployed on **Vercel** or **Netlify**
+- Deployed on **Vercel**
 
 ### Backend
 - Node.js + Express
@@ -25,6 +25,3 @@ Goodbrowser is a full-stack web application that summarizes long blocks of text 
 - Deployed on **Render**
 
 ---
-
-## 📂 Project Structure
-
